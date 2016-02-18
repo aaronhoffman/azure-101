@@ -14,7 +14,11 @@ namespace ContinuousJob
         // AzureWebJobsDashboard and AzureWebJobsStorage
         static void Main()
         {
-            var host = new JobHost();
+            var jobHostConfig = new JobHostConfiguration();
+            jobHostConfig.Queues.MaxDequeueCount = 3;
+
+            var host = new JobHost(jobHostConfig);
+
             // The following code ensures that the WebJob will be running continuously
             host.RunAndBlock();
         }
