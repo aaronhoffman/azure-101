@@ -19,11 +19,14 @@ namespace ContinuousJob
             Console.Out.WriteLine("Console.Out - " + message);
             Console.Error.WriteLine("Console.Error - " + message);
 
-            log.WriteLine("Log - " + message);
-
             dynamic kaark = JsonConvert.DeserializeObject(message);
 
-            if(kaark.ThrowError == "1")
+            log.WriteLine("Message Details");
+            log.WriteLine("   Action: " + kaark.Action);
+            log.WriteLine("   Email: " + kaark.Email);
+            log.WriteLine("   Duration: " + kaark.Duration);
+
+            if (kaark.ThrowError == "1")
              throw new Exception();
         }
     }
