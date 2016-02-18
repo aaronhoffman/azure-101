@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetAtNoonAzure101", "NetAtNoonAzure101\NetAtNoonAzure101.csproj", "{7AC32AD3-0469-4266-94FC-C2963B308670}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContinuousJob", "ContinuousJob\ContinuousJob.csproj", "{B9AA8774-A43E-479C-948B-7EEC7D29D72C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnDemandJob", "OnDemandJob\OnDemandJob.csproj", "{2982D81F-0F6E-473D-BA26-8359CF13A820}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7AC32AD3-0469-4266-94FC-C2963B308670}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7AC32AD3-0469-4266-94FC-C2963B308670}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7AC32AD3-0469-4266-94FC-C2963B308670}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7AC32AD3-0469-4266-94FC-C2963B308670}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9AA8774-A43E-479C-948B-7EEC7D29D72C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9AA8774-A43E-479C-948B-7EEC7D29D72C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9AA8774-A43E-479C-948B-7EEC7D29D72C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9AA8774-A43E-479C-948B-7EEC7D29D72C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2982D81F-0F6E-473D-BA26-8359CF13A820}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2982D81F-0F6E-473D-BA26-8359CF13A820}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2982D81F-0F6E-473D-BA26-8359CF13A820}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2982D81F-0F6E-473D-BA26-8359CF13A820}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
